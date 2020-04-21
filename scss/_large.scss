@@ -1,0 +1,54 @@
+header,
+nav,
+main,
+footer {
+  max-width: 64rem;
+  margin: auto;
+}
+
+/*----------- BODY --------------*/
+
+/*----------- HEADER --------------*/
+
+/*----------- NAVIGATION --------------*/
+
+/*----------- MAIN --------------*/
+
+main {
+        h1 {
+            text-align: center;
+            color: darkred
+        }
+    
+        padding: 0 2%;
+        min-height: 10rem;
+        section#weatherforecast {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: 40px;
+            div {
+                border: 2px solid yellow;
+                text-align: center;
+                background-color: lightseagreen;
+    
+                span {
+                    width: 100%;
+                    padding: 0px 20px 3px;
+                    background-color: yellow;
+                    color: darkred;
+                    font-size: 1.3rem;
+                }
+                p {
+                    font-size: 1.4rem;
+                }
+                img {
+                    width: 120px
+                }
+            }
+        }
+    
+    
+    
+    }
+
+/*----------- FOOTER --------------*/
